@@ -21,7 +21,7 @@ export const metadata = {
   keywords: [
     "Jai Maa Baglamukhi Tour and Travels",
     "jmb tour and travels",
-    "JMB Tour And Travels"
+    "JMB Tour And Travels",
      "cab service in Indore",
     "taxi service in Indore",
     "Indore cabs",
