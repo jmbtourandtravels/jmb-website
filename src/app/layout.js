@@ -13,13 +13,16 @@ const roboto = Roboto({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://www.travellpartner.com"),
+  metadataBase: new URL("https://www.jmbtourandtravels.com"),
   title:
-    "Travel Partner | Best Cab & Taxi Services in Indore | Book Affordable Rides 24/7",
+    "JMB Tour and Travels | Cab & Taxi Services | Safe & Affordable Rides",
   description:
-    "Travel Partner provides the best cab and taxi services in Indore for city rides, airport transfers, outstation trips, and corporate travel. Book safe, clean, and affordable cabs anytime with verified drivers and 24/7 support.",
+    "Jai Maa Baglamukhi Tour and Travels offers reliable cab and taxi services for local, outstation, and airport travel. Book safe, affordable, and comfortable rides anytime.",
   keywords: [
-    "cab service in Indore",
+    "Jai Maa Baglamukhi Tour and Travels",
+    "jmb tour and travels",
+    "JMB Tour And Travels"
+     "cab service in Indore",
     "taxi service in Indore",
     "Indore cabs",
     "Indore taxi booking",
@@ -77,17 +80,17 @@ export const metadata = {
   ],
   openGraph: {
     title:
-      "Travel Partner — Indore’s Most Trusted Cab & Travel Service | Affordable Taxi Booking 24/7",
+      "Jai Maa Baglamukhi Tour and Travels | Trusted Cab & Travel Services",
     description:
-      "Book city rides, airport transfers, and outstation trips with Travel Partner — Indore’s reliable, safe, and affordable taxi service. Available 24/7 with professional drivers.",
-    url: "https://www.travellpartner.com",
-    siteName: "Travel Partner",
+      "Book safe, affordable, and reliable cab services with Jai Maa Baglamukhi Tour and Travels. Available for local, outstation & airport rides.",
+    url: "https://www.jmbtourandtravels.com",
+    siteName: "Jai Maa Baglamukhi Tour and Travels",
     images: [
       {
-        url: "https://www.travellpartner.com/assets/logo3.png",
+        url: "https://www.jmbtourandtravels.com/assets/logo.png",
         width: 1200,
         height: 630,
-        alt: "Travel Partner Cab Service in Indore",
+        alt: "Jai Maa Baglamukhi Tour and Travels",
       },
     ],
     locale: "en_IN",
@@ -96,22 +99,19 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Travel Partner — Best Cab & Taxi Services in Indore | Affordable 24/7 Rides",
+      "Jai Maa Baglamukhi Tour and Travels | Cab & Taxi Booking",
     description:
-      "Travel Partner offers safe, affordable, and verified cab and taxi services in Indore for local, outstation, and airport rides. Book your ride instantly!",
-    images: ["https://www.travellpartner.com/assets/logo3.png"],
+      "Safe and affordable cab services for local and outstation travel.",
+    images: ["https://www.jmbtourandtravels.com/assets/logo.png"],
   },
   alternates: {
-    canonical: "https://www.travellpartner.com",
+    canonical: "https://www.jmbtourandtravels.com",
   },
-  authors: [{ name: "Travel Partner Team" }],
+  authors: [{ name: "Jai Maa Baglamukhi Tour and Travels" }],
   themeColor: "#ffffff",
   robots: {
     index: true,
     follow: true,
-    "max-snippet": -1,
-    "max-image-preview": "large",
-    "max-video-preview": -1,
   },
 };
 
@@ -126,29 +126,13 @@ export default function RootLayout({ children }) {
             new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
             j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','GTM-NLL3CPS6');
+            })(window,document,'script','dataLayer','GTM-WWQ9HTT8');
           `}
         </Script>
 
-        {/* ✅ Google Ads Conversion Tag */}
+        {/* ✅ Google Analytics (GA4) */}
         <Script
-          id="google-ads-tag"
-          strategy="afterInteractive"
-          src="https://www.googletagmanager.com/gtag/js?id=AW-17753542939"
-        />
-
-        <Script id="google-ads-config" strategy="afterInteractive">
-          {`
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'AW-17753542939');
-  `}
-        </Script>x
-
-        {/* ✅ Google Analytics */}
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-X5DVJBF0RB"
+          src="https://www.googletagmanager.com/gtag/js?id=G-LKK1D39XZY"
           strategy="afterInteractive"
         />
         <Script id="google-analytics" strategy="afterInteractive">
@@ -156,7 +140,7 @@ export default function RootLayout({ children }) {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-X5DVJBF0RB');
+            gtag('config', 'G-LKK1D39XZY');
           `}
         </Script>
 
@@ -167,16 +151,16 @@ export default function RootLayout({ children }) {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              name: "Travel Partner",
-              url: "https://www.travellpartner.com",
-              logo: "https://www.travellpartner.com/assets/logo3.png",
-              sameAs: [
+              name: "Jai Maa Baglamukhi Tour and Travels",
+              url: "https://www.jmbtourandtravels.com",
+              logo: "https://www.jmbtourandtravels.com/assets/logo.png",
+               sameAs: [
                 "https://www.facebook.com/travellpartner",
                 "https://www.instagram.com/travelpartnerr001",
               ],
               contactPoint: {
                 "@type": "ContactPoint",
-                telephone: "+91-7772075970",
+                 telephone: "+91-7772075970",
                 contactType: "Customer Service",
                 areaServed: "IN",
                 availableLanguage: ["English", "Hindi"],
@@ -190,10 +174,10 @@ export default function RootLayout({ children }) {
         className={`${roboto.variable} antialiased`}
         suppressHydrationWarning={true}
       >
-        {/* ✅ GTM (noscript) */}
+        {/* ✅ Google Tag Manager (noscript) */}
         <noscript>
           <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-NLL3CPS6"
+            src="https://www.googletagmanager.com/ns.html?id=GTM-WWQ9HTT8"
             height="0"
             width="0"
             style={{ display: "none", visibility: "hidden" }}
