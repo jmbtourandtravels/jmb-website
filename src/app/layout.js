@@ -168,6 +168,9 @@ export default function RootLayout({ children }) {
             }),
           }}
         />
+
+{/* Google Search Console Verification */}   
+<meta name="google-site-verification" content="WuepnCYpUxpMRQt8l9TIECNxtmHiGhyTzfHUywv78a4" />
       </head>
 
       <body
