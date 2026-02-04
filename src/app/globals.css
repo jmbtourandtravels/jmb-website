@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  
+  /* Your custom colors */
+  --color-primary-white: #ffffff;
+  --color-secondary-dark: #ffb901;
+  --color-secondary-light: #fff4d8;
+  --color-font-gray: #262622;
+  --color-font-white: #ffffff;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  
+  /* Your custom colors */
+  --color-primary-white: var(--color-primary-white);
+  --color-secondary-dark: var(--color-secondary-dark);
+  --color-secondary-light: var(--color-secondary-light);
+  --color-font-gray: var(--color-font-gray);
+  --color-font-white: var(--color-font-white);
+  /* Roboto as the default sans font */
+  --font-sans: var(--font-roboto), 'Roboto', sans-serif;
+}
+
+/* Prevent horizontal scrolling */
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-roboto), 'Roboto', sans-serif;
+  position: relative;
+}
+
+/* Ensure all elements stay within viewport */
+* {
+  box-sizing: border-box;
+}
+
+/* Custom styles for blog content */
+.prose {
+  line-height: 1.75;
+}
+
+.prose h2 {
+  @apply text-2xl font-bold mt-8 mb-4 text-[#141414];
+  border-left: 4px solid #FFD700;
+  padding-left: 1rem;
+}
+
+.prose h3 {
+  @apply text-xl font-semibold mt-6 mb-3 text-[#141414];
+}
+
+.prose h4 {
+  @apply text-lg font-semibold mt-4 mb-2 text-[#141414];
+}
+
+.prose p {
+  @apply mb-4 text-gray-700;
+}
+
+.prose ul, .prose ol {
+  @apply mb-4 pl-6;
+}
+
+.prose li {
+  @apply mb-2;
+}
+
+.prose strong {
+  @apply text-[#141414];
+}
+
+.prose a {
+  @apply text-[#FFD700] hover:text-[#FDD700] underline;
+}
+
+body.modal-open {
+  overflow: hidden;
+  height: 100%;
+}
+
+
+/* Heading font class */
