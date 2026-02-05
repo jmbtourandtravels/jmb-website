@@ -1,6 +1,6 @@
-// /src/app/blogs/[slug]/page.jsx
 import React from 'react';
-import { getBlogBySlug, getAllSlugs, blogData  } from '../blogData';
+import { notFound } from 'next/navigation'; // Import notFound
+import { getBlogBySlug, getAllSlugs } from '../blogData';
 
 // Generate static params for all blog slugs
 export async function generateStaticParams() {
@@ -12,7 +12,9 @@ export async function generateStaticParams() {
 
 // Generate metadata for SEO
 export async function generateMetadata({ params }) {
-  const blog = getBlogBySlug(params.slug);
+  // Await params in Next.js 15+
+  const { slug } = await params; 
+  const blog = getBlogBySlug(slug);
   
   if (!blog) {
     return {
@@ -33,24 +35,15 @@ export async function generateMetadata({ params }) {
   };
 }
 
-const BlogDetail = ({ params }) => {
-  const blog = getBlogBySlug(params.slug);
+// Change to async component to await params
+const BlogDetail = async ({ params }) => {
+  // Await the params to get the slug
+  const { slug } = await params;
+  const blog = getBlogBySlug(slug);
 
+  // If blog doesn't exist, trigger the not-found.js file
   if (!blog) {
-    return (
-      <div className="min-h-screen bg-white flex items-center justify-center">
-        <div className="text-center">
-          <h1 className="text-4xl font-bold text-gray-800 mb-4">Blog Not Found</h1>
-          <p className="text-gray-600 mb-8">The requested blog post could not be found.</p>
-          <a 
-            href="/blogs" 
-            className="bg-[#FFD700] text-black px-6 py-3 rounded-lg font-semibold hover:bg-[#FDD700] transition duration-200"
-          >
-            Back to All Blogs
-          </a>
-        </div>
-      </div>
-    );
+    notFound(); 
   }
 
   return (
@@ -134,13 +127,6 @@ const BlogDetail = ({ params }) => {
               {/* Blog Footer */}
               <div className="mt-12 pt-8 border-t border-gray-200">
                 <div className="flex flex-wrap items-center justify-between gap-4">
-                  {/* <div className="flex items-center space-x-4">
-                    <div className="flex items-center text-gray-600">
-                      <span role="img" aria-label="Comments" className="mr-2">💬</span>
-                      {blog.comments} Comments
-                    </div>
-                  </div> */}
-                  
                   <a 
                     href="/blogs"
                     className="flex items-center bg-[#FFD700] text-black px-6 py-3 rounded-lg font-semibold hover:bg-[#FDD700] transition duration-200"
@@ -152,8 +138,6 @@ const BlogDetail = ({ params }) => {
               </div>
             </div>
           </div>
-
-          
         </div>
       </section>
     </div>

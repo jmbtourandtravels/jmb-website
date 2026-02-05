@@ -403,7 +403,7 @@ const FooterLogo = () => (
         href="/"
          className="text-xl font-bold flex items-center pt-4"
 >
-      <span className="text-yellow-500">JMD</span>
+      <span className="text-yellow-500">JMB</span>
     <span className="text-[#f3f0f0] ml-1">Tours & Travels</span>
    </Link>
     </div>

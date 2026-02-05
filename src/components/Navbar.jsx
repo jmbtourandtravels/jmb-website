@@ -85,7 +85,7 @@ const Logo = () => (
         href="/"
          className="text-xl font-bold flex items-center pt-4"
 >
-  <span className="text-yellow-500">JMD</span>
+  <span className="text-yellow-500">JMB</span>
   <span className="text-[#141414] ml-1">Tours & Travels</span>
 </Link>
 
