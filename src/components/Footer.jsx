@@ -292,6 +292,7 @@
 
 
 "use client";
+import Link from "next/link";
 
 import React, { useState, useEffect, useCallback } from "react";
 import {
@@ -398,14 +399,13 @@ const PostItem = ({ date, title, imagePlaceholder, href }) => (
 const FooterLogo = () => (
   <div className="flex flex-col items-center md:items-start text-center md:text-left space-y-4">
     <div className="relative w-48 h-16 sm:w-56 sm:h-14 lg:w-60 lg:h-16">
-      <Image
-        src="/assets/logo2.png"
-        alt="JMB Tour And Travels Logo"
-        fill
-        className="object-contain object-center md:object-left"
-        priority
-        sizes="(max-width: 640px) 192px, (max-width: 1024px) 224px, 240px"
-      />
+     <Link
+        href="/"
+         className="text-xl font-bold flex items-center pt-4"
+>
+      <span className="text-yellow-500">JMD</span>
+    <span className="text-[#f3f0f0] ml-1">Tours & Travels</span>
+   </Link>
     </div>
     <p className="text-gray-400 text-sm leading-relaxed max-w-xs">
       JMB Tour And Travels — Indore's trusted cab service for city rides, outstation trips, and airport transfers. Safe, affordable, and available 24/7.

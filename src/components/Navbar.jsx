@@ -81,14 +81,14 @@ const Logo = () => (
     <Link href="/" className="flex items-center">
       {/* Replace this with your actual logo image path */}
       <div className="relative w-48 h-12 sm:w-56 sm:h-14 lg:w-60 lg:h-16">
-        <Image
-          src="/assets/logo.png" // Replace with your logo path
-          alt="JMB Tour And Travels Logo"
-          fill
-          className="object-contain object-left"
-          priority
-          sizes="(max-width: 640px) 192px, (max-width: 1024px) 224px, 240px"
-        />
+        <Link
+        href="/"
+         className="text-xl font-bold flex items-center pt-4"
+>
+  <span className="text-yellow-500">JMD</span>
+  <span className="text-[#141414] ml-1">Tours & Travels</span>
+</Link>
+
       </div>
     </Link>
   </div>

@@ -149,7 +149,7 @@ export default function ServiceHighlights() {
       <div className="absolute inset-0 w-full h-full">
         <img
           src="/assets/Banner4.png"
-          alt="Travel Partner Banner"
+          alt="JMB Tour And Travels Banner"
           className="w-full h-full object-cover object-center"
           loading="eager"
         />

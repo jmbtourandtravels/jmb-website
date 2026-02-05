@@ -10,27 +10,27 @@ import Link from "next/link";
 const TAB_DATA = {
   Drivers: {
     title: "Professional & Verified Drivers",
-    description: "At Travel Partner, your safety comes first. Our drivers are professionally trained, background-verified, and well-versed with all major routes in and around Indore — including Ujjain, Dewas, and Bhopal. They maintain punctuality, politeness, and professionalism throughout your journey, ensuring a comfortable and stress-free travel experience every time.",
+    description: "JMB Tour And Travels, your safety comes first. Our drivers are professionally trained, background-verified, and well-versed with all major routes in and around Indore — including Ujjain, Dewas, and Bhopal. They maintain punctuality, politeness, and professionalism throughout your journey, ensuring a comfortable and stress-free travel experience every time.",
     image: "/assets/home/whyus1.jpg",
-    alt: "Verified Driver at Travel Partner",
+    alt: "Verified Driver at JMB Tour And Travels",
   },
   Comfort: {
     title: "Clean, Comfortable & Well-Maintained Cabs",
-    description: "Enjoy a premium ride experience with our clean and air-conditioned cabs. Each vehicle is regularly serviced and sanitized to offer maximum comfort. Whether it’s a quick city drop or an outstation tour, Travel Partner ensures smooth rides, ample space, and ultimate relaxation on every trip.",
+    description: "Enjoy a premium ride experience with our clean and air-conditioned cabs. Each vehicle is regularly serviced and sanitized to offer maximum comfort. Whether it’s a quick city drop or an outstation tour, JMB Tour And Travels ensures smooth rides, ample space, and ultimate relaxation on every trip.",
     image: "/assets/home/whyus2.jpg",
     alt: "Clean and comfortable cabs",
   },
   Pricing: {
     title: "Transparent & Affordable Pricing",
-    description: "With Travel Partner, you always know what you pay for. Our transparent pricing policy means no hidden charges — just honest fares and flexible packages for every budget. Whether you need a local taxi, airport pickup, or an Indore-to-Ujjain cab, you get the best rates guaranteed.",
+    description: "With JMB Tour And Travels, you always know what you pay for. Our transparent pricing policy means no hidden charges — just honest fares and flexible packages for every budget. Whether you need a local taxi, airport pickup, or an Indore-to-Ujjain cab, you get the best rates guaranteed.",
     image: "/assets/home/whyus3.jpg",
     alt: "A graphic showing transparent pricing details.",
   },
   Support: {
     title: "24/7 Assistance & Quick Response",
-    description: "We’re always here when you need us. Our dedicated support team operates round the clock to assist you with bookings, route changes, or urgent travel needs. No matter the time or location, Travel Partner ensures your journey is backed by prompt and reliable service every step of the way.",
+    description: "We’re always here when you need us. Our dedicated support team operates round the clock to assist you with bookings, route changes, or urgent travel needs. No matter the time or location, JMB Tour And Travels ensures your journey is backed by prompt and reliable service every step of the way.",
     image: "/assets/home/whyus4.jpg",
-    alt: "24/7 Assistant by Travel Partner",
+    alt: "24/7 Assistant by JMB Tour And Travels",
   },
 };
 
@@ -102,7 +102,7 @@ const WhyChooseUs = () => {
           <div className="absolute inset-0 w-full h-full">
                 <img
                   src="/assets/Banner3.png"
-                  alt="Travel Partner Banner"
+                  alt="JMB Tour And Travels Banner"
                   className="w-full h-full object-cover object-center"
                   loading="eager"
                 />
