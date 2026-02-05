@@ -101,7 +101,7 @@
 //       <div className="absolute inset-0 w-full h-full">
 //         <img
 //           src="/assets/Banner5.png"
-//           alt="Travel Partner Banner"
+//           alt="Jmb tour and travels Banner"
 //           className="w-full h-full object-cover object-center"
 //           loading="eager"
 //         />
@@ -119,7 +119,7 @@
 //                 </span>
 //               </div>
 //               <h2 className="text-3xl md:text-4xl text-center md:text-start lg:text-5xl font-bold text-black mb-4">
-//                 Get in Touch with Travel Partner
+//                 Get in Touch with Jmb tour and travels
 //               </h2>
 //               <p className="text-black text-center md:text-start text-lg max-w-2xl">
 //                 Have questions or need assistance? We're here to help! Reach out
@@ -138,7 +138,7 @@
 //                   <div className="absolute inset-0 w-full h-full">
 //                     <img
 //                       src="/assets/CardBgBanner.png"
-//                       alt="Travel Partner Banner"
+//                       alt="JMB Tour And Travels Banner"
 //                       className="w-full h-full object-cover object-center"
 //                       loading="eager"
 //                     />
@@ -170,7 +170,7 @@
 //             <div className="absolute inset-0 w-full h-full">
 //               <img
 //                 src="/assets/CardBgBanner.png"
-//                 alt="Travel Partner Banner"
+//                 alt="Jmb tour and travels Banner"
 //                 className="w-full h-full object-cover object-center"
 //                 loading="eager"
 //               />
@@ -426,7 +426,7 @@ export default function ContactUs() {
       <div className="absolute inset-0 w-full h-full">
         <img
           src="/assets/Banner5.png"
-          alt="Travel Partner Banner"
+          alt="JMB Tour And Travels Banner"
           className="w-full h-full object-cover object-center"
           loading="eager"
         />
@@ -444,7 +444,7 @@ export default function ContactUs() {
                 </span>
               </div>
               <h2 className="text-3xl md:text-4xl text-center md:text-start lg:text-5xl font-bold text-black mb-4">
-                Get in Touch with Travel Partner
+                Get in Touch with JMB Tour And Travels
               </h2>
               <p className="text-black text-center md:text-start text-lg max-w-2xl">
                 Have questions or need assistance? We're here to help! Reach out

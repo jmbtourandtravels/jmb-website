@@ -16,7 +16,7 @@ export default function About() {
               <div className="absolute inset-0 w-full h-full">
                 <img
                   src="/assets/AboutBanner.png"
-                  alt="Travel Partner Banner"
+                  alt="JMB Tour And Travels Banner"
                   className="w-full h-full object-cover object-center"
                   loading="eager"
                 />
@@ -27,7 +27,7 @@ export default function About() {
               <div className="absolute flex md:hidden inset-0 w-full h-full">
                 <img
                   src="/assets/AboutBanner.png"
-                  alt="Travel Partner Banner"
+                  alt="JMB Tour And Travels Banner"
                   className="w-full h-full object-cover object-center"
                   loading="eager"
                 />
@@ -55,7 +55,7 @@ export default function About() {
                     <div className="w-full h-full flex items-center justify-center">
                       <img
                         src="/assets/home/aboutus2.png"
-                        alt="About Travel Partner"
+                        alt="About JMB Tour And Travels"
                         className="w-full h-full object-contain"
                       />
                     </div>
@@ -69,11 +69,11 @@ export default function About() {
                   {/* Three Paragraphs */}
                   <div className="space-y-4 text-center md:text-start  lg:space-y-5 mb-6 lg:mb-8">
                     <p className="text-black text-base lg:text-lg xl:text-xl leading-relaxed">
-                     At Travel Partner, we’re more than just a cab service — we’re your trusted travel companion across Indore and beyond. Our mission is to make every journey safe, comfortable, and hassle-free. From daily city rides and airport transfers to corporate travel and outstation trips, we provide reliable taxi solutions for every need.
+                     At Jmb tour and travels, we’re more than just a cab service — we’re your trusted travel companion across Indore and beyond. Our mission is to make every journey safe, comfortable, and hassle-free. From daily city rides and airport transfers to corporate travel and outstation trips, we provide reliable taxi solutions for every need.
                     </p>
 
                     <p className="text-black text-base lg:text-lg xl:text-xl leading-relaxed">
-                       With a fleet of well-maintained cars, verified drivers, and 24/7 customer support, Travel Partner ensures you reach your destination on time, every time. Experience smooth rides, transparent pricing, and true Indori hospitality with us.
+                       With a fleet of well-maintained cars, verified drivers, and 24/7 customer support, Jmb tour and travels ensures you reach your destination on time, every time. Experience smooth rides, transparent pricing, and true Indori hospitality with us.
                     </p>
                   </div>
 

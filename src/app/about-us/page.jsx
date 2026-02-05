@@ -41,7 +41,7 @@ export default function AboutUs() {
     name: "Rohit Verma",
     designation: "Corporate Client",
     review:
-      "Travel Partner is our go-to for all corporate travel needs in Indore. The cabs are always on time, clean, and the drivers are extremely professional. Highly reliable service.",
+      "Jmb tour and travels is our go-to for all corporate travel needs in Indore. The cabs are always on time, clean, and the drivers are extremely professional. Highly reliable service.",
     rating: 5,
   },
   {
@@ -49,7 +49,7 @@ export default function AboutUs() {
     name: "Neha Joshi",
     designation: "Airport Traveler",
     review:
-      "I often use Travel Partner for airport transfers. The driver tracked my flight and was right on time at the pickup point. Smooth and stress-free experience every time.",
+      "I often use Jai Maa Baglamukhi Tour And Travels for airport transfers. The driver tracked my flight and was right on time at the pickup point. Smooth and stress-free experience every time.",
     rating: 5,
   },
   {
@@ -73,7 +73,7 @@ export default function AboutUs() {
     name: "Sandeep Yadav",
     designation: "Frequent Traveler",
     review:
-      "Travel Partner never disappoints — clean cars, safe drivers, and always on time. Definitely the best option for anyone looking for a trustworthy taxi in Indore.",
+      "Jmb tour and travels never disappoints — clean cars, safe drivers, and always on time. Definitely the best option for anyone looking for a trustworthy taxi in Indore.",
     rating: 4,
   },
   {
@@ -81,7 +81,7 @@ export default function AboutUs() {
     name: "Divya Sharma",
     designation: "Corporate Employee",
     review:
-      "We regularly book Travel Partner for office drop and outstation meetings. The punctuality and comfort they provide are unmatched. A truly professional service.",
+      "We regularly book Jai Maa Baglamukhi Tour And Travels for office drop and outstation meetings. The punctuality and comfort they provide are unmatched. A truly professional service.",
     rating: 5,
   },
 ];
@@ -201,8 +201,7 @@ export default function AboutUs() {
               About Us
             </h1>
             <p className="text-xl md:text-2xl max-w-2xl mx-auto">
-              Your trusted travel partner with years of excellence in
-              transportation services
+              Your trusted Jai Maa Baglamukhi Tour And Travels
             </p>
           </div>
         </div>
@@ -225,20 +224,20 @@ export default function AboutUs() {
             <div className="space-y-6">
               <div className="space-y-4 flex flex-col items-center md:items-start">
                 <h2 className="text-4xl md:text-5xl font-bold text-black">
-                  About Travel Partner
+                  About Jai Maa Baglamukhi Tour And Travels
                 </h2>
                 <div className="w-20 h-1 bg-[#FDD700]"></div>
                 <p className="text-black font-semibold text-lg">
                   Your Trusted Cab & Travel Companion in Indore
                 </p>
                 <p className="text-black text-center md:text-start text-lg leading-relaxed">
-                 Welcome to Travel Partner, Indore’s most reliable cab and travel service dedicated to making every journey safe, comfortable, and memorable. We provide a wide range of travel solutions — from local city rides and airport transfers to outstation trips and corporate travel.
+                 Welcome to Jai Maa Baglamukhi Tour And Travels, Indore’s most reliable cab and travel service dedicated to making every journey safe, comfortable, and memorable. We provide a wide range of travel solutions — from local city rides and airport transfers to outstation trips and corporate travel.
                 </p>
                 <p className="text-black text-center md:text-start text-lg leading-relaxed">
-                  Our mission is simple: to redefine convenience and trust in every ride. With a fleet of clean, well-maintained cars and experienced, verified drivers, Travel Partner ensures timely pickups, transparent pricing, and 24/7 availability. Whether you’re traveling within Indore or exploring nearby destinations like Ujjain, Dewas, or Bhopal, we make your journey seamless from start to finish.
+                  Our mission is simple: to redefine convenience and trust in every ride. With a fleet of clean, well-maintained cars and experienced, verified drivers, Jai Maa Baglamukhi Tour And Travels ensures timely pickups, transparent pricing, and 24/7 availability. Whether you’re traveling within Indore or exploring nearby destinations like Ujjain, Dewas, or Bhopal, we make your journey seamless from start to finish.
                 </p>
                 <p className="text-black text-center md:text-start text-lg leading-relaxed">
-                  At Travel Partner, we don’t just take you places — we make sure you enjoy the journey.
+                  At Jai Maa Baglamukhi Tour And Travels, we don’t just take you places — we make sure you enjoy the journey.
                 </p>
               </div>
             </div>
@@ -247,7 +246,7 @@ export default function AboutUs() {
             <div className="relative h-full flex items-center">
               <img
                 src="/assets/about/aboutus.png"
-                alt="About Travel Partner"
+                alt="About Jai Maa Baglamukhi Tour And Travels"
                 className="w-full h-[300px] md:h-[450px] object-contain rounded-lg"
               />
             </div>
@@ -273,7 +272,7 @@ export default function AboutUs() {
               Ready to Start Your Journey?
             </h2>
             <p className="text-lg text-black">
-              Book your ride today and experience the difference with Travel Partner. Professional service, comfortable vehicles, and memorable
+              Book your ride today and experience the difference with Jai Maa Baglamukhi Tour And Travels. Professional service, comfortable vehicles, and memorable
               journeys await you.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
@@ -518,7 +517,7 @@ export default function AboutUs() {
         <div className="absolute inset-0 w-full h-full">
           <img
             src="/assets/FooterBanner.png"
-            alt="Travel Partner Banner"
+            alt="Jai Maa Baglamukhi Tour And Travels Banner"
             className="w-full h-full object-cover object-center"
             loading="eager"
           />

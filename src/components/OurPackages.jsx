@@ -203,7 +203,7 @@ export default function OurPackages() {
       <div className="absolute inset-0 w-full h-full">
         <img
           src="/assets/Banner5.png"
-          alt="Travel Partner Banner"
+          alt="JMB Tour And Travels Banner"
           className="w-full h-full object-cover object-center"
           loading="eager"
         />
@@ -218,7 +218,7 @@ export default function OurPackages() {
 
           {/* Description Paragraph */}
           <p className="text-black text-lg max-w-3xl mx-auto">
-            Discover the perfect travel plan with Travel Partner’s exclusive cab packages. Whether it’s a local city tour, an airport transfer, or an outstation trip from Indore, our flexible packages are designed to suit your schedule and budget. Enjoy transparent pricing, professional drivers, and a hassle-free travel experience every time you ride with us.
+            Discover the perfect travel plan with JMB Tour And Travel's exclusive cab packages. Whether it’s a local city tour, an airport transfer, or an outstation trip from Indore, our flexible packages are designed to suit your schedule and budget. Enjoy transparent pricing, professional drivers, and a hassle-free travel experience every time you ride with us.
           </p>
         </div>
 
@@ -251,7 +251,7 @@ export default function OurPackages() {
                     <div className="absolute inset-0 w-full h-full">
                       <img
                         src="/assets/CardBgBanner.png"
-                        alt="Travel Partner Banner"
+                        alt="JMB Tour And Travels Banner"
                         className="w-full h-full object-cover object-center"
                         loading="eager"
                       />

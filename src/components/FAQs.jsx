@@ -8,17 +8,17 @@ export default function FAQSection() {
 
   const faqs = [
   {
-    question: "How can I book a cab with Travel Partner?",
+    question: "How can I book a cab with Jmb tour and travels?",
     answer:
-      "Booking your ride with Travel Partner is quick and easy! Simply visit our website, fill out the booking form, or call our 24/7 support team. Just share your pickup location, destination, and preferred time — we’ll handle the rest.",
+      "Booking your ride with Jmb tour and travels is quick and easy! Simply visit our website, fill out the booking form, or call our 24/7 support team. Just share your pickup location, destination, and preferred time — we’ll handle the rest.",
   },
   {
-    question: "What types of vehicles are available at Travel Partner?",
+    question: "What types of vehicles are available at Jmb tour and travels?",
     answer:
-      "Travel Partner offers a diverse fleet including hatchbacks, sedans, SUVs, and premium cars. Every vehicle is clean, air-conditioned, and regularly serviced to ensure a comfortable and safe journey.",
+      "Jmb tour and travels offers a diverse fleet including hatchbacks, sedans, SUVs, and premium cars. Every vehicle is clean, air-conditioned, and regularly serviced to ensure a comfortable and safe journey.",
   },
   {
-    question: "Are the drivers at Travel Partner verified and experienced?",
+    question: "Are the drivers at Jmb tour and travels verified and experienced?",
     answer:
       "Yes, all our drivers are fully verified, professionally trained, and experienced with Indore city routes as well as nearby destinations like Ujjain, Dewas, and Bhopal. Your safety and comfort are always our top priority.",
   },
@@ -28,9 +28,9 @@ export default function FAQSection() {
       "Yes, you can cancel your booking free of charge up to 30 minutes before your scheduled pickup. For later cancellations, a minimal fee may apply depending on the type of booking.",
   },
   {
-    question: "Does Travel Partner offer airport transfer services?",
+    question: "Does Jmb tour and travels offer airport transfer services?",
     answer:
-      "Absolutely! Travel Partner provides reliable airport pickup and drop services in Indore. Our drivers track flight timings to ensure timely pickups and a stress-free airport experience.",
+      "Absolutely! Jmb tour and travels provides reliable airport pickup and drop services in Indore. Our drivers track flight timings to ensure timely pickups and a stress-free airport experience.",
   },
 ];
 
@@ -110,7 +110,7 @@ export default function FAQSection() {
 <div className="absolute inset-0 w-full h-full">
         <img
           src="/assets/Banner6.png"
-          alt="Travel Partner Banner"
+          alt="Jmb tour and travels Banner"
           className="w-full h-full object-cover rounded-xl object-center"
           loading="eager"
         />

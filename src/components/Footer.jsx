@@ -130,7 +130,7 @@
 //         <div className="absolute inset-0 w-full h-full">
 //           <img
 //             src="/assets/FooterBanner.png"
-//             alt="Travel Partner Banner"
+//             alt="Jmb tour and travels Banner"
 //             className="w-full h-full object-cover object-center"
 //             loading="eager"
 //           />
@@ -147,7 +147,7 @@
 //                 </span>
 //               </div>
 //               <p className="text-gray-400 text-sm leading-relaxed max-w-xs">
-//                 Travel Partner — Indore's trusted cab service for city rides, outstation trips, and airport transfers. Safe, affordable, and available 24/7.
+//                 Jmb tour and travels — Indore's trusted cab service for city rides, outstation trips, and airport transfers. Safe, affordable, and available 24/7.
 //               </p>
 
 //               {/* Updated Social Icons */}
@@ -206,11 +206,11 @@
 //               {/* Contact Info */}
 //               <div className="space-y-3 w-full flex flex-col items-center md:items-start">
 //                 <a
-//                   href="mailto:info.travellpartner@gmail.com"
+//                   href="mailto:info.jmbtourandtravels@gmail.com"
 //                   className="flex items-center text-gray-400 hover:text-[#FDD700] transition duration-200 justify-center md:justify-start"
 //                 >
 //                   <Mail className="w-5 h-5 mr-3 text-[#FDD700] flex-shrink-0" />
-//                   info.travellpartner@gmail.com
+//                  info.jmbtourandtravels@gmail.com
 //                 </a>
 //                 <a
 //                   href="tel:+917772075970"
@@ -265,7 +265,7 @@
 //         <div className="relative z-10 bg-[#FDD700] py-4 text-stone-950 font-medium">
 //           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center text-sm space-y-2 md:space-y-0">
 //             <p className="text-center md:text-left">
-//               © Copyright 2025 By Travel Partner
+//               © Copyright 2025 By  Jmb tour and travels
 //             </p>
 //             <div className="flex space-x-6 justify-center">
 //               <span className="text-center">
@@ -400,7 +400,7 @@ const FooterLogo = () => (
     <div className="relative w-48 h-16 sm:w-56 sm:h-14 lg:w-60 lg:h-16">
       <Image
         src="/assets/logo2.png"
-        alt="Travel Partner Logo"
+        alt="JMB Tour And Travels Logo"
         fill
         className="object-contain object-center md:object-left"
         priority
@@ -408,7 +408,7 @@ const FooterLogo = () => (
       />
     </div>
     <p className="text-gray-400 text-sm leading-relaxed max-w-xs">
-      Travel Partner — Indore's trusted cab service for city rides, outstation trips, and airport transfers. Safe, affordable, and available 24/7.
+      JMB Tour And Travels — Indore's trusted cab service for city rides, outstation trips, and airport transfers. Safe, affordable, and available 24/7.
     </p>
 
     {/* Updated Social Icons */}
@@ -459,7 +459,7 @@ const Footer = () => {
         <div className="absolute inset-0 w-full h-full">
           <img
             src="/assets/FooterBanner.png"
-            alt="Travel Partner Banner"
+            alt="JMB Tour And Travels Banner"
             className="w-full h-full object-cover object-center"
             loading="eager"
           />
@@ -510,11 +510,11 @@ const Footer = () => {
               {/* Contact Info */}
               <div className="space-y-3 w-full flex flex-col items-center md:items-start">
                 <a
-                  href="mailto:info.travellpartner@gmail.com"
+                  href="mailto:info.jmbtourandtravels@gmail.com"
                   className="flex items-center text-gray-400 hover:text-[#FDD700] transition duration-200 justify-center md:justify-start"
                 >
                   <Mail className="w-5 h-5 mr-3 text-[#FDD700] flex-shrink-0" />
-                  info.travellpartner@gmail.com
+                  info.jmbtourandtravels@gmail.com
                 </a>
                 <a
                   href="tel:+917772075970"
@@ -569,13 +569,13 @@ const Footer = () => {
         <div className="relative z-10 bg-[#FDD700] py-4 text-stone-950 font-medium">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center text-sm space-y-2 md:space-y-0">
             <p className="text-center md:text-left">
-              © Copyright 2025 By Travel Partner
+                © Copyright {new Date().getFullYear()} By JMB Tour And Travels
             </p>
             <div className="flex space-x-6 justify-center">
               <span className="text-center">
                 Designed & Developed by Astex AI |
                 <a
-                  href="https://astexai.tech/"
+                  href="https://astexai.in/"
                   className="hover:underline ml-1"
                   target="_blank"
                   rel="noopener noreferrer"

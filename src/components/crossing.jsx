@@ -9,7 +9,7 @@ export default function Crossing() {
  <div className="absolute inset-0 h-[60px]">
           <img 
             src="/assets/crossing.png" 
-            alt="Travel Partner Banner"
+            alt="Jmb tour and travels Banner"
             className="w-full h-full object-cover object-center"
             loading="eager"
           />

@@ -42,7 +42,7 @@ export default function OurVehicles() {
         <div className="absolute inset-0 w-full h-full">
           <img
             src="/assets/Banner5.png"
-            alt="Travel Partner Banner"
+            alt="Jmb tour and travels Banner"
             className="w-full h-full object-cover object-center"
             loading="eager"
           />
@@ -92,7 +92,7 @@ export default function OurVehicles() {
                 {/* <div className="absolute inset-0 w-full h-full">
                   <img
                     src="/assets/Banner2.png"
-                    alt="Travel Partner Banner"
+                    alt="Jmb tour and travels Banner"
                     className="w-full h-full object-cover object-center"
                     loading="eager"
                   />

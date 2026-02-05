@@ -239,7 +239,7 @@ const handleSubmit = (e) => {
           <div className="absolute inset-0 w-full h-full">
             <img
               src="/assets/contact/FormBgImg.png"
-              alt="Travel Partner Banner"
+              alt="Jai Maa Baglamukhi Tour And Travels Banner"
               className="w-full h-full object-cover object-center"
               loading="eager"
             />

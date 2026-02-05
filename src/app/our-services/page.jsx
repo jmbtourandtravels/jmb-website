@@ -30,7 +30,7 @@ const OurServices = () => {
         <div className="absolute inset-0 w-full h-full">
           <img
             src="/assets/services/servicesbanner.png"
-            alt="Our Services Banner - Travel Partner"
+            alt="Our Services Banner - Jmb tour and travels"
             className="w-full h-full object-cover"
           />
         </div>
@@ -41,7 +41,7 @@ const OurServices = () => {
               Our Services
             </h1>
             <p className="text-xl md:text-2xl max-w-2xl mx-auto">
-              Premium transportation services by Travel Partner for all your travel needs
+              Premium transportation services by Jmb tour and travels for all your travel needs
             </p>
           </div>
         </div>
@@ -52,7 +52,7 @@ const OurServices = () => {
         <div className="absolute inset-0 w-full h-full">
           <img
             src="/assets/Banner5.png"
-            alt="Travel Partner Services Background"
+            alt="Jai Maa Baglamukhi Tour And Travels Services Background"
             className="w-full h-full object-cover object-center"
             loading="eager"
           />
@@ -62,7 +62,7 @@ const OurServices = () => {
           {/* Section Heading */}
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-              Travel Partner Premium Services
+              Jai Maa Baglamukhi Tour And Travels Premium Services
             </h2>
             <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
               Discover our comprehensive range of transportation services designed to meet all your travel requirements with comfort and reliability across Madhya Pradesh.
@@ -81,7 +81,7 @@ const OurServices = () => {
                 <div className="relative h-52 md:h-56 w-full overflow-hidden">
                   <img
                     src={service.image}
-                    alt={`${service.title} - Travel Partner`}
+                    alt={`${service.title} - Jai Maa Baglamukhi Tour And Travels`}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     onError={(e) => {
                       e.target.src = "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80";
@@ -105,7 +105,7 @@ const OurServices = () => {
           {/* Additional Info */}
           <div className="text-center mt-12">
             <p className="text-gray-500 text-sm">
-              * All Travel Partner services include professional drivers, well-maintained vehicles, and 24/7 customer support.
+              * All Jmb tour and travels services include professional drivers, well-maintained vehicles, and 24/7 customer support.
             </p>
           </div>
         </div>

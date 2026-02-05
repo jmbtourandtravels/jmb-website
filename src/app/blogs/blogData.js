@@ -7,7 +7,7 @@
 //     slug: "benefits-cab-services-indore-daily-commute",
 //     excerpt: "Discover how cab services in Indore can transform your daily commute with comfort, reliability, and time-saving benefits.",
 //     image: "https://i.pinimg.com/1200x/7b/15/23/7b1523567e985922c51fa2061bf358d4.jpg",
-//     author: "Travel Partner",
+//     author: "Jmb tour and travels",
 //     date: "2025-10-28",
 //     day: "28",
 //     month: "OCT",
@@ -45,7 +45,7 @@
 //     slug: "book-best-cab-service-indore-guide",
 //     excerpt: "Learn the step-by-step process to book reliable cab services in Indore and ensure a comfortable travel experience.",
 //     image: "https://i.pinimg.com/1200x/17/57/20/17572032de5555d6536808fbc91acdb4.jpg",
-//     author: "Travel Partner",
+//     author: "Jmb tour and travels",
 //     date: "2025-10-28",
 //     day: "28",
 //     month: "OCT",
@@ -113,7 +113,7 @@
 //     slug: "exploring-indore-must-visit-places-cab-services",
 //     excerpt: "Discover the best tourist attractions in Indore and how cab services make exploring the city convenient and enjoyable.",
 //     image: "https://i.pinimg.com/1200x/a6/b8/d6/a6b8d6589967510cf0438d7fa1d8fa42.jpg",
-//     author: "Travel Partner",
+//     author: "Jmb tour and travels",
 //     date: "2025-10-28",
 //     day: "28",
 //     month: "OCT",
@@ -191,7 +191,7 @@ export const blogData = [
       "Discover how choosing cab services in Indore can make your daily travel more comfortable, safe, and cost-effective — perfect for working professionals, students, and corporate employees.",
     image:
       "/assets/blogs/banner1.jpg",
-    author: "Travel Partner",
+    author: "Jmb tour and travels",
     date: "2025-10-28",
     day: "28",
     month: "OCT",
@@ -218,7 +218,7 @@ export const blogData = [
       <p>Using cab sharing or scheduled rides helps reduce the number of vehicles on the road, which lowers carbon emissions. By switching to cab services, you’re contributing to Indore’s vision of a cleaner, greener city.</p>
 
       <h2>Final Thoughts</h2>
-      <p>Switching to cab services for your daily commute in Indore saves time, money, and effort while supporting sustainable transportation. <a href="/book-cab">Book your ride today</a> with Travel Partner — Indore’s trusted cab service — and experience convenience like never before.</p>
+      <p>Switching to cab services for your daily commute in Indore saves time, money, and effort while supporting sustainable transportation. <a href="/book-cab">Book your ride today</a> with Jmb tour and travels — Indore’s trusted cab service — and experience convenience like never before.</p>
     `,
     tags: ["Cab Services", "Indore Travel", "Daily Commute", "Transportation", "Indore Cabs"]
   },
@@ -230,7 +230,7 @@ export const blogData = [
       "Looking to book a cab in Indore? This complete guide helps you find, compare, and choose the best cab service for city rides, airport transfers, and outstation trips.",
     image:
       "/assets/blogs/banner2.jpg",
-    author: "Travel Partner",
+    author: "Jmb tour and travels",
     date: "2025-10-28",
     day: "28",
     month: "OCT",
@@ -251,7 +251,7 @@ export const blogData = [
       </ul>
 
       <h3>Step 2: Choose a Trusted Cab Service</h3>
-      <p>Always choose a reputed provider like <strong>Travel Partner Indore</strong>, known for punctuality, clean vehicles, and professional drivers. Check customer reviews and ratings before booking.</p>
+      <p>Always choose a reputed provider like <strong>Jmb tour and travels Indore</strong>, known for punctuality, clean vehicles, and professional drivers. Check customer reviews and ratings before booking.</p>
 
       <h3>Step 3: Select a Booking Platform</h3>
       <ul>
@@ -274,7 +274,7 @@ export const blogData = [
         <li>Use cashless or digital payments for convenience</li>
       </ul>
 
-      <h2>Why Travel Partner Is the Best Choice</h2>
+      <h2>Why Jmb tour and travels Is the Best Choice</h2>
       <p>We’re not just another taxi company — we’re Indore’s travel companion. Our services are tailored for both locals and visitors who seek reliability and comfort.</p>
 
       <ul>
@@ -286,7 +286,7 @@ export const blogData = [
       </ul>
 
       <h2>Book Your Cab Now</h2>
-      <p>Ready to travel comfortably? <a href="/book-cab">Book your cab in Indore</a> today with Travel Partner — your trusted name in professional city and outstation rides.</p>
+      <p>Ready to travel comfortably? <a href="/book-cab">Book your cab in Indore</a> today with Jmb tour and travels — your trusted name in professional city and outstation rides.</p>
     `,
     tags: ["Cab Booking", "Indore Taxi", "Travel Tips", "Transportation Guide", "Online Cab Booking"]
   },
@@ -295,10 +295,10 @@ export const blogData = [
     title: "Exploring Indore: 10 Must-Visit Places with Reliable Cab Services",
     slug: "exploring-indore-must-visit-places-cab-services",
     excerpt:
-      "Explore Indore’s top tourist attractions — from Rajwada Palace to Chappan Dukan — comfortably with Travel Partner cab services for safe, guided sightseeing.",
+      "Explore Indore’s top tourist attractions — from Rajwada Palace to Chappan Dukan — comfortably with Jmb tour and travels cab services for safe, guided sightseeing.",
     image:
       "/assets/blogs/banner3.jpg",
-    author: "Travel Partner",
+    author: "Jmb tour and travels",
     date: "2025-10-28",
     day: "28",
     month: "OCT",
@@ -307,7 +307,7 @@ export const blogData = [
     readTime: "8 min read",
     content: `
       <h2>Explore the Beauty of Indore with Comfortable Cabs</h2>
-      <p>Indore isn’t just a business hub — it’s a vibrant blend of culture, history, and food. With <strong>Travel Partner’s cab services</strong>, you can explore the city at your own pace without worrying about parking, directions, or public transport schedules.</p>
+      <p>Indore isn’t just a business hub — it’s a vibrant blend of culture, history, and food. With <strong>Jmb tour and travels’s cab services</strong>, you can explore the city at your own pace without worrying about parking, directions, or public transport schedules.</p>
 
       <h3>Top 10 Tourist Attractions in Indore</h3>
       <ol>
@@ -338,7 +338,7 @@ export const blogData = [
       <p>Our professional drivers double as local guides, helping you discover hidden gems and suggesting the best times to visit each spot.</p>
 
       <h3>Book a Cab and Start Exploring</h3>
-      <p>Whether you're a first-time visitor or a local rediscovering your city, Travel Partner makes sightseeing easy and enjoyable. <a href="/book-cab">Book your Indore sightseeing cab</a> now and make your travel memories unforgettable.</p>
+      <p>Whether you're a first-time visitor or a local rediscovering your city, Jmb tour and travels makes sightseeing easy and enjoyable. <a href="/book-cab">Book your Indore sightseeing cab</a> now and make your travel memories unforgettable.</p>
     `,
     tags: ["Indore Tourism", "Sightseeing", "Travel Guide", "Local Attractions", "Indore Cabs"]
   },

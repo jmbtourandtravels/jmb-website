@@ -148,7 +148,7 @@ const ContactForm = () => {
       <div className="absolute inset-0 w-full h-full">
         <img
           src="/assets/contact/FormBgImg.png"
-          alt="Travel Partner Banner"
+          alt="Jai Maa Baglamukhi Tour And Travels Banner"
           className="w-full h-full object-cover object-center"
           loading="eager"
         />
@@ -386,12 +386,12 @@ export default function ContactUs() {
             <div className="relative hidden lg:block h-[600px] w-full overflow-hidden shadow-2xl">
               <img
                 src={contactImage}
-                alt="Travel Partner Contact"
+                alt="Jai Maa Baglamukhi Tour And Travels Contact"
                 className="w-full h-full object-cover"
               />
               {/* Yellow banner element */}
               <div className="absolute bottom-0 left-0 bg-[#FDD700] text-black text-3xl font-black py-2 px-6">
-                TRAVEL PARTNER
+                JAI MAA BAGLAMUKHI TOUR AND TRAVELS
               </div>
             </div>
             
@@ -422,30 +422,34 @@ export default function ContactUs() {
 
               {/* Social Media */}
               <div>
-                <h3 className="text-xl text-center md:text-start font-semibold text-black mb-4">
-                  Follow Us On Social Media
-                </h3>
-                <div className="flex justify-center md:justify-start space-x-4">
-                  <a
-                    href="#"
-                    className="w-12 h-12 bg-[#FDD700] hover:bg-black rounded-full flex items-center justify-center transition-all duration-300 transform hover:scale-105"
-                  >
-                    <Facebook className="w-6 h-6 text-black hover:text-white" />
-                  </a>
-                  <a
-                    href="#"
-                    className="w-12 h-12 bg-[#FDD700] hover:bg-black  rounded-full flex items-center justify-center transition-all duration-300 transform hover:scale-110"
-                  >
-                    <Twitter className="w-6 h-6 text-black hover:text-white" />
-                  </a>
-                  <a
-                    href="#"
-                    className="w-12 h-12 bg-[#FDD700] hover:bg-black  rounded-full flex items-center justify-center transition-all duration-300 transform hover:scale-110"
-                  >
-                    <Instagram className="w-6 h-6 text-black hover:text-white" />
-                  </a>
-                </div>
-              </div>
+  <h3 className="text-xl text-center md:text-start font-semibold text-black mb-4">
+    Follow Us On Social Media
+  </h3>
+
+  <div className="flex justify-center md:justify-start space-x-4">
+    <a
+      href="#"
+      className="group w-12 h-12 bg-[#FDD700] hover:bg-black rounded-full flex items-center justify-center transition-all duration-300 transform hover:scale-105"
+    >
+      <Facebook className="w-6 h-6 text-black group-hover:text-white transition-colors duration-300" />
+    </a>
+
+    <a
+      href="#"
+      className="group w-12 h-12 bg-[#FDD700] hover:bg-black rounded-full flex items-center justify-center transition-all duration-300 transform hover:scale-110"
+    >
+      <Twitter className="w-6 h-6 text-black group-hover:text-white transition-colors duration-300" />
+    </a>
+
+    <a
+      href="#"
+      className="group w-12 h-12 bg-[#FDD700] hover:bg-black rounded-full flex items-center justify-center transition-all duration-300 transform hover:scale-110"
+    >
+      <Instagram className="w-6 h-6 text-black group-hover:text-white transition-colors duration-300" />
+    </a>
+  </div>
+</div>
+
             </div>
 
             {/* Business Hours */}

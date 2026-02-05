@@ -35,7 +35,7 @@ export default function WhyWeAreDifferent() {
 
           {/* Paragraph */}
           <p className="text-sm text-center md:text-start sm:text-base md:text-lg lg:text-xl text-black max-w-2xl leading-relaxed mb-8 sm:mb-12">
-            At Travel Partner, we go beyond just cab rides — we create travel experiences. Combining comfort, safety, and reliability, every trip with us is designed to make your journey smooth, enjoyable, and truly memorable.
+            At JMB Tour And Travels, we go beyond just cab rides — we create travel experiences. Combining comfort, safety, and reliability, every trip with us is designed to make your journey smooth, enjoyable, and truly memorable.
           </p>
         </div>
       </div>
@@ -68,7 +68,7 @@ export default function WhyWeAreDifferent() {
           <div className="absolute inset-0 w-full h-full">
             <img
               src="/assets/Banner6.png"
-              alt="Travel Partner Banner"
+              alt="JMB Tour And Travels Banner"
               className="w-full h-full rounded-xl object-cover object-center"
               loading="eager"
             />
@@ -93,7 +93,7 @@ export default function WhyWeAreDifferent() {
                   <div className="absolute inset-0 w-full h-full">
                     <img
                       src="/assets/CardBgBanner.png"
-                      alt="Travel Partner Banner"
+                      alt="JMB Tour And Travels Banner"
                       className="w-full h-full rounded-xl object-cover object-center"
                       loading="eager"
                     />

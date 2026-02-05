@@ -202,7 +202,7 @@ export default function OurVehicles() {
       <div className="absolute inset-0 w-full h-full">
         <img
           src="/assets/Banner5.png"
-          alt="Travel Partner Banner"
+          alt="JMB Tour And Travels Banner"
           className="w-full h-full object-cover object-center"
           loading="eager"
         />
@@ -219,7 +219,7 @@ export default function OurVehicles() {
 
             {/* Description Paragraph */}
             <p className="text-black text-lg max-w-2xl text-center md:text-start">
-              Choose from a wide range of clean, air-conditioned cars perfect for every trip. From city rides to outstation journeys, Travel Partner ensures comfort, safety, and reliability in every ride.
+              Choose from a wide range of clean, air-conditioned cars perfect for every trip. From city rides to outstation journeys, JMB Tour And Travels ensures comfort, safety, and reliability in every ride.
             </p>
           </div>
 

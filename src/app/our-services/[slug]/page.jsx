@@ -60,7 +60,7 @@ const DetailedServices = ({ params }) => {
         <div className="absolute inset-0 w-full h-full">
           <img
             src="/assets/about/aboutbanner.png"
-            alt={`${serviceData.title} - Travel Partner`}
+            alt={`${serviceData.title} - Jmb tour and travels`}
             className="w-full h-full object-cover"
           />
         </div>
@@ -96,7 +96,7 @@ const DetailedServices = ({ params }) => {
             <div className="mt-6 md:mt-8 shadow-lg overflow-hidden relative">
               <img
                 src="/assets/CardBg.png"
-                alt="Travel Partner Driver"
+                alt="Jai Maa Baglamukhi Tour And Travels Driver"
                 className="w-full h-96 object-cover"
               />
               
@@ -119,7 +119,7 @@ const DetailedServices = ({ params }) => {
             <div className="w-full mb-6 md:mb-8">
               <img
                 src={serviceData.image}
-                alt={`${serviceData.title} - Travel Partner`}
+                alt={`${serviceData.title} - Jai Maa Baglamukhi Tour And Travels`}
                 className="w-full h-48 sm:h-64 md:h-98 object-cover rounded-lg"
               />
             </div>
@@ -149,7 +149,7 @@ const DetailedServices = ({ params }) => {
                 <div className="w-full md:w-1/2 flex justify-center">
                   <img
                     src="/assets/services/detailedservicesfeatured.jpg"
-                    alt="Travel Partner Service Features"
+                    alt="Jai Maa Baglamukhi Tour And Travels Service Features"
                     className="w-full max-w-md h-56 object-cover rounded-lg shadow-lg"
                   />
                 </div>
@@ -158,7 +158,7 @@ const DetailedServices = ({ params }) => {
 
             {/* Footer Text */}
             <p className="text-gray-500 text-center md:text-start text-sm md:text-md mt-8 leading-relaxed">
-             Travel Partner continually redefines transportation experiences by combining comfort, safety, and reliability. We strategically optimize every journey, ensuring timely and seamless travel for corporate, airport, intercity, and pilgrimage needs. With professional drivers, well-maintained vehicles, and customer-centric services, we create a stress-free and efficient travel experience for every passenger, every time.
+             Jai Maa Baglamukhi Tour And Travels continually redefines transportation experiences by combining comfort, safety, and reliability. We strategically optimize every journey, ensuring timely and seamless travel for corporate, airport, intercity, and pilgrimage needs. With professional drivers, well-maintained vehicles, and customer-centric services, we create a stress-free and efficient travel experience for every passenger, every time.
             </p>
           </div>
         </div>

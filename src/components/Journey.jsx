@@ -119,7 +119,7 @@ export default function Journey() {
       <div className="absolute inset-0 w-full h-full">
         <img 
           src="/assets/Banner2.png" 
-          alt="Travel Partner Banner"
+          alt="JMB Tour And Travels Banner"
           className="w-full h-full object-cover object-center"
           loading="eager"
         />
@@ -438,7 +438,7 @@ export default function Journey() {
               Book Your Ride in Just a Few Clicks
             </h2>
             <p className="text-gray-600 text-base mb-6 max-w-3xl mx-auto leading-relaxed">
-              Find the perfect cab at the best price. Choose your location, select your car type, and get instant fare details. With Travel Partner, booking your cab in Indore is fast, simple, and reliable.
+              Find the perfect cab at the best price. Choose your location, select your car type, and get instant fare details. With JMB Tour And Travels, booking your cab in Indore is fast, simple, and reliable.
             </p>
             <Link href="https://wa.me/917772075970">
               <button className="bg-[#FFD700] text-gray-800 px-6 py-2 rounded-lg font-semibold text-base transition-all duration-200 transform hover:scale-105 shadow-lg cursor-pointer">
@@ -453,7 +453,7 @@ export default function Journey() {
               <div className="relative">
                 <img
                   src="/assets/home/toyota.png"
-                  alt="Premium Cab - Travel Partner"
+                  alt="Premium Cab -  JMB Tour And Travels"
                   className="w-full object-contain transform hover:scale-105 transition-transform duration-500"
                   onError={(e) => {
                     e.target.style.display = "none";
@@ -523,7 +523,7 @@ export default function Journey() {
                 Book Your Ride in Just a Few Clicks
               </h2>
               <p className="text-gray-600 text-base lg:text-lg mb-6 lg:mb-8 max-w-3xl mx-auto lg:mx-0 leading-relaxed">
-                Find the perfect cab at the best price. Choose your location, select your car type, and get instant fare details. With Travel Partner, booking your cab in Indore is fast, simple, and reliable.
+                Find the perfect cab at the best price. Choose your location, select your car type, and get instant fare details. With JMB Tour And Travels, booking your cab in Indore is fast, simple, and reliable.
               </p>
               <Link href="https://wa.me/917772075970">
                 <button className="bg-[#FFD700] text-gray-800 px-6 py-2 rounded-lg font-semibold text-base lg:text-lg transition-all duration-200 transform hover:scale-105 shadow-lg cursor-pointer">
@@ -541,7 +541,7 @@ export default function Journey() {
                     <div className="relative">
                       <img
                         src="/assets/home/toyota.png"
-                        alt="Premium Cab - Travel Partner"
+                        alt="Premium Cab -  JMB Tour And Travels"
                         className="w-full md:h-96 object-contain transform hover:scale-105 transition-transform duration-500"
                         onError={(e) => {
                           e.target.style.display = "none";

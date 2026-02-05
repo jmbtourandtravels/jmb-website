@@ -10,7 +10,7 @@ const BookingCard = ({ car }) => (
     <div className="absolute inset-0 w-full h-full">
       <img
         src="/assets/CardBgBanner.png"
-        alt="Travel Partner Banner"
+        alt="Jmb tour and travels Banner"
         className="w-full h-full object-cover object-center"
         loading="eager"
       />
@@ -49,7 +49,7 @@ const EmergencyCard = () => (
     <div className="absolute inset-0 w-full h-full">
       <img
         src="/assets/FleetsCardBg2.png"
-        alt="Travel Partner Banner"
+        alt="Jmb tour and travels Banner"
         className="w-full h-full object-cover object-center"
         loading="eager"
       />
@@ -122,7 +122,7 @@ const CarDetail = ({ params }) => {
               {car.name}
             </h1>
             <p className="text-lg sm:text-xl md:text-2xl max-w-2xl mx-auto">
-              Your trusted travel partner with years of excellence in transportation services
+              Your trusted jmb tour and travels with years of excellence in transportation services
             </p>
           </div>
         </div>

@@ -297,7 +297,7 @@ export default function Packages() {
         <div className="absolute inset-0 w-full h-full">
           <img
             src="/assets/Banner5.png"
-            alt="Travel Partner Banner"
+            alt="Jai Maa Baglamukhi Tour And Travels Banner"
             className="w-full h-full object-cover object-center"
             loading="eager"
           />
@@ -331,7 +331,7 @@ export default function Packages() {
                   <div className="absolute inset-0 w-full h-full">
                     <img
                       src="/assets/CardBgBanner.png"
-                      alt="Travel Partner Banner"
+                      alt="Jai Maa Baglamukhi Tour And Travels Card Background"
                       className="w-full h-full object-cover object-center"
                       loading="eager"
                     />

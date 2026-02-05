@@ -83,7 +83,7 @@ const Logo = () => (
       <div className="relative w-48 h-12 sm:w-56 sm:h-14 lg:w-60 lg:h-16">
         <Image
           src="/assets/logo.png" // Replace with your logo path
-          alt="Travel Partner Logo"
+          alt="JMB Tour And Travels Logo"
           fill
           className="object-contain object-left"
           priority
@@ -101,7 +101,7 @@ const MobileLogo = () => (
       <div className="relative w-40 h-10 sm:w-48 sm:h-12">
         <Image
           src="/assets/logo.png" // Replace with your logo path
-          alt="Travel Partner Logo"
+          alt="JMB Tour And Travels Logo"
           fill
           className="object-contain object-left"
           priority

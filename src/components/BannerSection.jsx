@@ -17,7 +17,7 @@
 //         <div className="absolute inset-0 w-full h-full">
 //           <img 
 //             src="/assets/HeroBanner.png" 
-//             alt="Travel Partner Banner"
+//             alt="Jmb tour and travels Banner"
 //             className="w-full h-full object-cover object-center"
 //             loading="eager"
 //           />
@@ -105,7 +105,7 @@
 //                 <div className="relative z-10 transform hover:scale-105 transition-transform duration-500">
 //                   <img 
 //                     src="/assets/HeroImage.png" 
-//                     alt="Luxury Cab - Travel Partner"
+//                     alt="Luxury Cab - JMB Tour And Travels"
 //                     className="w-full h-auto object-contain drop-shadow-2xl"
 //                     loading="eager"
 //                   />
@@ -157,7 +157,7 @@ export default function BannerSection() {
         <div className="absolute inset-0 w-full h-full">
           <img 
             src="/assets/home/herobanner.png" 
-            alt="Travel Partner Banner"
+            alt="JMB Tour And Travels Banner"
             className="w-full h-full object-cover object-center"
             loading="eager"
           />
@@ -183,7 +183,7 @@ export default function BannerSection() {
               <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white">
                 Ride Smart. {' '}
                 <span className="text-[#FFD700]">Ride Safe </span>{' '}
-                with Travel Partner.
+                with JMB Tour And Travels.
               </h1>
 
               {/* Description */}
