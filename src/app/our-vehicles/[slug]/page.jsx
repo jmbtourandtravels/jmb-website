@@ -1,4 +1,4 @@
-import Head from 'next/head';
+// import Head from 'next/head';
 import { FaCheckCircle, FaCar, FaClock } from 'react-icons/fa';
 import { getCarBySlug, getAllCars } from '../fleetsData';
 import { notFound } from 'next/navigation';
